@@ -2,5 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+:root {
+    --main-backgound: #adb9e3;
+    --text-color:#000;
+    --nav-backgound: #A899D6;
+}
+
+body {
+    background-color: var(--main-backgound);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--nav-backgound);
+    width: 15rem;
+    padding: 25px;
+}
